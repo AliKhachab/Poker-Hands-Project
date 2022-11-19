@@ -142,3 +142,5 @@ class Card:
         str: Returns the rank name of the card, such as  "Two" or "Three" or ... or "Queen" or "King" or Ace 
         """
         return Card.rank_names[self.rank]
+
+#This is a class that will create card objects. This is the foundation of the entire project. Without these objects, the project would not work as smoothly.
